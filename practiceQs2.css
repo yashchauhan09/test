@@ -1,0 +1,38 @@
+h2{
+    display: inline;
+    background-color: aqua;
+}
+
+.span{
+    display: block;
+    background-color: blue;
+}
+
+#inlinespan{
+    /*background-color: aqua;*/
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    padding: 50px;   /* padding sets only left and right side */
+    margin: 20px;    /* margin also sets only left and right side */
+}
+
+div{
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    padding: 50px;   
+    margin: 20px;
+}
+
+.important{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px; 
+    margin: 5px;
+    background-color: chartreuse;
+    /*display: inline;*/
+    display: inline-block;
+    /*Display: none; when we want to vanish any item from the display then we use this */
+
+}

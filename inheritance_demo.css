@@ -1,0 +1,19 @@
+div{
+    background-color: yellow;
+}
+
+input{
+    background-color: inherit;
+}
+
+button{
+    background-color: inherit;
+}
+
+button:hover{
+    background-color: rgb(141, 141, 141);
+}
+
+button:active{
+    color: rgb(152, 0, 0);
+}

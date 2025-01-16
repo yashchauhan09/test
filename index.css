@@ -1,0 +1,134 @@
+*{
+    font-family: 'Courier New';
+}
+ 
+
+h1{
+    color: red;
+}
+
+#login{
+    color: aqua;
+    background-color: black;
+}
+
+#signup{
+    color: aqua;
+    background-color: black;
+}
+
+.upvote{
+    color: green;
+    background-color: black;
+}
+
+/* Descendent selector*/
+ 
+p a{
+    color: black;
+    background-color: beige;
+} 
+
+
+.post a{
+    color: black;
+    background-color: beige;
+} 
+
+nav ul li a{
+    color: pink;
+}
+
+input {
+    color: blue;
+}
+
+
+/*  Ajacent Sibling Combinator  */
+
+p + h3 {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.upvote + button {
+    background-color: cornflowerblue;
+}
+
+
+/* Chid Combinator  (child parent relation) */
+
+div > input{
+    background-color: pink;
+}
+
+.host a{
+    text-decoration: none;
+}
+
+/* Attribute selector */
+input[type="text"]{
+    color: red;
+}
+
+input[type="passward"]{
+    color:green;
+}
+
+
+/* #myId  p{
+    color: green;
+} */
+div[id="myId"] p{
+    color: green;
+}
+
+/* Pseudo class 
+A keyword added to a selector that specifies a specail state of the selectd elements 
+:hover
+:active
+:checked 
+:nth-of-type*/
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+button:active{
+    background-color: hotpink;
+    color: black;
+}
+
+p:active {
+    font-weight: bold;
+    color: green;
+}
+
+input[type="radio"]:checked + lable{
+    color: red;
+    font-weight: bold;
+}
+
+div:nth-of-type(2n){
+    background-color: blanchedalmond;
+}
+
+
+/* Pseudo elements 
+A keyword added to a selector that lets you style a specific part of the selected elements 
+::first-letter
+::first-line
+::selection */
+
+h1::first-letter{
+    color: black;
+}
+
+p::first-line{
+    color: purple;
+}
+
+p::selection{
+    background-color: rgb(212, 255, 0);
+}

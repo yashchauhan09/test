@@ -1,0 +1,45 @@
+h1{
+    border: 2px solid black;
+    width: 50%;
+}
+
+#outer{
+    height: 300px; 
+    width: 300px;
+    background-color: pink;
+    margin: 50px;
+    
+}
+
+#inner{
+    height: 100px; 
+    width: 100px;
+    background-color: cornflowerblue;
+    margin-left: 10%;
+}
+
+#unique1{
+    height: 400px; 
+    width: 400px;
+    background-color: red;
+    border: 2px solid black;
+    font-size: 10px;
+}
+
+#unique2{
+    height: 300px; 
+    width: 300px;
+    background-color: green;
+    font-size: 3em;
+    padding: 1em;
+
+}
+
+section{
+    font-size: 15px;
+}
+
+.dives{
+    font-size: 3rem;
+}
+
